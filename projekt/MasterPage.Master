@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="KatalogTelefonow.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Katalog</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="strona">
+        <div id="baner">
+            <img src="baner.png" runat="server" />
+        </div>       
+        <asp:XmlDataSource ID="source" runat="server" DataFile="Products.xml" />
+
+        <div id="naglowek">
+            <asp:ContentPlaceHolder ID="header" runat="server" />
+        </div>
+
+        <div id="bottomContainer">
+            <div id="menuContainer">
+                <div id="menuDiv">
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="mapaSerwisu" StaticDisplayLevels="2" CssClass="menu">
+                        <StaticMenuItemStyle CssClass="menuItem" />
+                        <DynamicMenuItemStyle CssClass="menuItem" />
+                    </asp:Menu>
+                </div>
+                <asp:SiteMapDataSource ID="mapaSerwisu" runat="server" />
+            </div>
+
+            <div id="zawartosc">
+                <asp:ContentPlaceHolder ID="content" runat="server" />
+            </div>
+
+            <div id="clear" />
+        </div>
+    </div>
+    <footer class="stopka">Antonina Stefanowska 2017r.</footer>
+    </form>
+</body>
+</html>

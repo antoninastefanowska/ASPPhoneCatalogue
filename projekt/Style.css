@@ -1,0 +1,249 @@
+﻿body {
+    font-family : Verdana;
+    background-color : paleturquoise;
+    color : lightcyan;
+    font-size : 16px;
+}
+
+#strona {
+    margin : auto;
+    width : 70%;
+    min-height : 50px;
+    overflow : hidden;
+}
+
+#baner {
+    border : solid lightcyan 5px;
+    background-color : lightseagreen;
+}
+
+#baner img {
+    width : 70%;
+    margin : auto;
+    display : block;
+}
+
+
+#bottomContainer {
+    overflow : hidden;
+    display : flex;
+    min-width : 100%;
+}
+
+#menuContainer {
+    margin-top : 10px;
+    border : solid lightcyan 5px;
+    background-color : lightseagreen;
+    padding : 5px;
+    min-height : 10px;
+    float : left;
+    width : 25%;
+    flex : 1;
+}
+
+#menuDiv {
+    display : table;
+    margin : auto;
+}
+
+.menu {
+    margin : auto;
+    display : block;
+    padding : 5px;
+    text-align : center;
+    font-weight : bold;
+    font-size : 20px;
+}
+
+.menuItem {
+    background-color : paleturquoise;
+    color : lightseagreen;
+    padding : 10px;
+    margin : 5px;
+    min-width : 200px;
+}
+
+.menuItem:hover {
+    background-color : darkcyan;
+    color : paleturquoise;
+    padding : 10px;
+    margin : 5px;
+    min-width : 200px;
+}
+
+#naglowek {
+    padding : 5px;
+    margin-top : 10px;
+    border : solid lightcyan 5px;
+    background-color : lightseagreen;
+    text-align : center;
+    font-weight : bold;
+    font-size : 30px;
+}
+
+#zawartosc {
+    padding : 10px;
+    margin-top : 10px;
+    border : solid lightcyan 5px;
+    background-color : lightseagreen;
+    min-height : 150px;
+    width : 69%;
+    overflow : hidden;
+    float : right;
+    flex : 3;
+    margin-left : 10px;
+}
+
+.stopka {
+    margin-top : 10px;
+    background-color : lightseagreen;
+    text-align : center;
+    padding : 5px;
+    border : solid lightcyan 5px;
+    font-size : 14px;
+}
+
+#powitanie {
+    text-align : center;
+    font-size : 20px;
+}
+
+#opis {
+}
+
+#tabela {
+    text-align : center;
+    font-size : 16px;
+}
+
+#szczegoly {
+    margin-top : 20px;
+    font-size : 16px;
+    text-align : center;
+}
+
+.details {
+    margin : auto;
+}
+
+.details td {
+    padding : 5px;
+}
+
+.detailsHeader {
+    font-weight : bold;
+    padding : 5px;
+    background : lightseagreen;
+    color : lightcyan;
+}
+
+.detailsRow {
+    background : lightcyan;
+    color : lightseagreen;
+}
+
+.detailsMainHeader {
+    font-size : 24px;
+    font-weight : bold;
+}
+
+#trescDiv {
+    overflow : auto;
+}
+
+.recenzjaTextBox {
+    padding : 5px;
+    width : 90%;
+    min-height : 100px;
+    overflow : auto;
+}
+
+#validator {
+    display : block;
+}
+
+.wyroznienie {
+    font-weight : bold;
+}
+
+#ddlContainer {
+    width : 75%;
+    margin : auto;
+}
+
+#ddlLewy {
+    float : left;
+    display : inline-block;
+}
+
+#ddlPrawy {
+    float : right;
+    display : inline-block;
+}
+
+#divSrodek {
+    margin : auto;
+    display : table;
+}
+
+.betterChoice {
+    font-weight : bold;
+    background : lightgreen;
+    color : lightcyan;
+}
+
+.worseChoice {
+    background : lightcoral;
+    color : lightcyan;
+}
+
+.headerCell {
+    font-weight : bold;
+    background : lightseagreen;
+    color : lightcyan;
+}
+
+#centerButtonDiv {
+    margin : auto;
+    margin-top : 10px;
+    display : table;
+}
+
+.error {
+    color : red;
+    font-size : 14px;
+}
+
+.grid {
+    border : none;
+    margin : auto;
+    text-align : center;
+    font-size : 16px;
+}
+
+.grid th {
+    font-weight : bold;
+    padding : 5px;
+}
+
+.grid td {
+    padding : 5px;
+}
+
+.gridRow {
+    background : lightcyan;
+    color : lightseagreen;
+}
+
+.gridSelectedRow {
+    background : lightseagreen;
+    color : lightcyan;
+}
+
+.gridButton {
+}
+
+.gridButton:hover {
+    background : lightseagreen;
+    color : lightcyan;
+}

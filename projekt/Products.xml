@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Phones>
+  <Phone ID="1" Brand="Sony">
+    <Name>Sony Xperia M</Name>
+    <Model>C1905</Model>
+    <Release>2013 VIII</Release>
+    <Type>bar</Type>
+    <Keyboard>No</Keyboard>
+    <Size>4.0 inches</Size>
+    <Touchscreen>Yes</Touchscreen>
+    <SIM>Micro-SIM</SIM>
+    <DualSIM>No</DualSIM>
+    <MemoryCard>microSD</MemoryCard>
+    <Memory>4 GB</Memory>
+    <RAM>1 GB</RAM>
+    <OperatingSystem>Android</OperatingSystem>
+    <OperatingSystemVersion>4.3</OperatingSystemVersion>
+    <Chipset>Qualcomm Snapdragon S4 Plus MSM8227</Chipset>
+    <CPU>1.0 GHz</CPU>
+    <Cores>2</Cores>
+    <Battery>1750 mAh</Battery>
+    <Camera>5 MP</Camera>
+    <LED>Yes</LED>
+    <Radio>Yes</Radio>
+    <Communications>
+      <Communication>WLAN</Communication>
+      <Communication>GPS</Communication>
+      <Communication>Bluetooth</Communication>
+      <Communication>NFC</Communication>
+    </Communications>
+    <Sensors>
+      <Sensor>Accelerometer</Sensor>
+      <Sensor>Proximity</Sensor>
+      <Sensor>Compass</Sensor>
+    </Sensors>
+  </Phone>
+  <Phone ID="2" Brand="Apple">
+    <Name>Iphone 7</Name>
+    <Model>---</Model>
+    <Release>2016 IX</Release>
+    <Type>bar</Type>
+    <Keyboard>No</Keyboard>
+    <Size>4.7 inches</Size>
+    <Touchscreen>Yes</Touchscreen>
+    <SIM>Nano-SIM</SIM>
+    <DualSIM>No</DualSIM>
+    <MemoryCard>none</MemoryCard>
+    <Memory>32 GB</Memory>
+    <RAM>2 GB</RAM>
+    <OperatingSystem>iOS</OperatingSystem>
+    <OperatingSystemVersion>10.3</OperatingSystemVersion>
+    <Chipset>Apple A10 Fusion</Chipset>
+    <CPU>2.34 GHz</CPU>
+    <Cores>4</Cores>
+    <Battery>1960 mAh</Battery>
+    <Camera>12 MP</Camera>
+    <LED>Yes</LED>
+    <Radio>No</Radio>
+    <Communications>
+      <Communication>WLAN</Communication>
+      <Communication>Bluetooth</Communication>
+      <Communication>GPS</Communication>
+      <Communication>NFC</Communication>
+    </Communications>
+    <Sensors>
+      <Sensor>Fingerprint</Sensor>
+      <Sensor>Accelerometer</Sensor>
+      <Sensor>Gyroscope</Sensor>
+      <Sensor>Proximity</Sensor>
+      <Sensor>Compass</Sensor>
+      <Sensor>Barometer</Sensor>
+    </Sensors>
+  </Phone>
+  <Phone ID="3" Brand="Samsung">
+    <Name>Samsung Galaxy S Duos</Name>
+    <Model>GT-S7562</Model>
+    <Release>2012 IX</Release>
+    <Type>bar</Type>
+    <Keyboard>No</Keyboard>
+    <Size>4.0 inches</Size>
+    <Touchscreen>Yes</Touchscreen>
+    <SIM>Mini-SIM</SIM>
+    <DualSIM>Yes</DualSIM>
+    <MemoryCard>microSD</MemoryCard>
+    <Memory>4 GB</Memory>
+    <RAM>768 MB</RAM>
+    <OperatingSystem>Android</OperatingSystem>
+    <OperatingSystemVersion>4.0</OperatingSystemVersion>
+    <Chipset>Qualcomm MSM7227A Snapdragon S1</Chipset>
+    <CPU>1.0 GHz</CPU>
+    <Cores>1</Cores>
+    <Battery>1500 mAh</Battery>
+    <Camera>5 MP</Camera>
+    <LED>Yes</LED>
+    <Radio>Yes</Radio>
+    <Communications>
+      <Communication>WLAN</Communication>
+      <Communication>Bluetooth</Communication>
+      <Communication>GPS</Communication>
+    </Communications>
+    <Sensors>
+      <Sensor>Accelerometer</Sensor>
+      <Sensor>Proximity</Sensor>
+      <Sensor>Compass</Sensor>
+    </Sensors>
+  </Phone>
+  <Phone ID="4" Brand="Meizu">
+    <Name>Meizu M3 Note</Name>
+    <Model>Note3</Model>
+    <Release>2016 IV</Release>
+    <Type>bar</Type>
+    <Keyboard>No</Keyboard>
+    <Size>5.5 inches</Size>
+    <Touchscreen>Yes</Touchscreen>
+    <SIM>Nano-SIM</SIM>
+    <DualSIM>Yes</DualSIM>
+    <MemoryCard>microSD</MemoryCard>
+    <Memory>16 GB</Memory>
+    <RAM>2 GB</RAM>
+    <OperatingSystem>Android</OperatingSystem>
+    <OperatingSystemVersion>5.1</OperatingSystemVersion>
+    <Chipset>Mediatek MT6755 Helio P10</Chipset>
+    <CPU>1.8 GHz</CPU>
+    <Cores>8</Cores>
+    <Battery>4100 mAh</Battery>
+    <Camera>13 MP</Camera>
+    <LED>Yes</LED>
+    <Radio>Yes</Radio>
+    <Communications>
+      <Communication>WLAN</Communication>
+      <Communication>Bluetooth</Communication>
+      <Communication>GPS</Communication>
+    </Communications>
+    <Sensors>
+      <Sensor>Fingerprint</Sensor>
+      <Sensor>Accelerometer</Sensor>
+      <Sensor>Gyroscope</Sensor>
+      <Sensor>Proximity</Sensor>
+      <Sensor>Compass</Sensor>
+    </Sensors>
+  </Phone>
+  <Phone ID="5" Brand="Huawei">
+    <Name>Honor 5X</Name>
+    <Model>---</Model>
+    <Release>2015 XI</Release>
+    <Type>bar</Type>
+    <Keyboard>No</Keyboard>
+    <Size>5.5 inches</Size>
+    <Touchscreen>Yes</Touchscreen>
+    <SIM>Micro-SIM</SIM>
+    <DualSIM>Yes</DualSIM>
+    <MemoryCard>microSD</MemoryCard>
+    <Memory>16 GB</Memory>
+    <RAM>2 GB</RAM>
+    <OperatingSystem>Android</OperatingSystem>
+    <OperatingSystemVersion>6.0</OperatingSystemVersion>
+    <Chipset>Qualcomm MSM8939v2 Snapdragon 616</Chipset>
+    <CPU>1.5 GHz</CPU>
+    <Cores>8</Cores>
+    <Battery>3000 mAh</Battery>
+    <Camera>13 MP</Camera>
+    <LED>Yes</LED>
+    <Radio>Yes</Radio>
+    <Communications>
+      <Communication>WLAN</Communication>
+      <Communication>Bluetooth</Communication>
+      <Communication>GPS</Communication>
+    </Communications>
+    <Sensors>
+      <Sensor>Fingerprint</Sensor>
+      <Sensor>Accelerometer</Sensor>
+      <Sensor>Proximity</Sensor>
+      <Sensor>Compass</Sensor>
+    </Sensors>
+  </Phone>
+  <Phone ID="6" Brand="Blackberry">
+    <Name>BlackBerry Pearl Flip</Name>
+    <Model>8230</Model>
+    <Release>2009 V</Release>
+    <Type>clamshell</Type>
+    <Keyboard>Yes</Keyboard>
+    <Size>2.6 inches</Size>
+    <Touchscreen>No</Touchscreen>
+    <SIM>Mini-SIM</SIM>
+    <DualSIM>No</DualSIM>
+    <MemoryCard>microSD</MemoryCard>
+    <Memory>128 MB</Memory>
+    <RAM>128 MB</RAM>
+    <OperatingSystem>BlackBerry OS</OperatingSystem>
+    <OperatingSystemVersion>4.6</OperatingSystemVersion>
+    <Chipset>Intel XScale PXA272</Chipset>
+    <CPU>0.312 GHz</CPU>
+    <Cores>1</Cores>
+    <Battery>900 mAh</Battery>
+    <Camera>2 MP</Camera>
+    <LED>Yes</LED>
+    <Radio>No</Radio>
+    <Communications>
+      <Communication>Bluetooth</Communication>
+    </Communications>
+    <Sensors>
+    </Sensors>
+  </Phone>
+  <Phone ID="7" Brand="BlackBerry">
+    <Name>BlackBerry Passport</Name>
+    <Model>---</Model>
+    <Release>2014 IX</Release>
+    <Type>bar</Type>
+    <Keyboard>Yes</Keyboard>
+    <Size>4.5 inches</Size>
+    <Touchscreen>Yes</Touchscreen>
+    <SIM>Nano-SIM</SIM>
+    <DualSIM>No</DualSIM>
+    <MemoryCard>microSD</MemoryCard>
+    <Memory>32 GB</Memory>
+    <RAM>3 GB</RAM>
+    <OperatingSystem>BlackBerry OS</OperatingSystem>
+    <OperatingSystemVersion>10.3</OperatingSystemVersion>
+    <Chipset>Qualcomm MSM8974AAA Snapdragon 801</Chipset>
+    <CPU>2.26 GHz</CPU>
+    <Cores>4</Cores>
+    <Battery>3450 mAh</Battery>
+    <Camera>13 MP</Camera>
+    <LED>Yes</LED>
+    <Radio>Yes</Radio>
+    <Communications>
+      <Communication>WLAN</Communication>
+      <Communication>Bluetooth</Communication>
+      <Communication>GPS</Communication>
+      <Communication>NFC</Communication>
+    </Communications>
+    <Sensors>
+      <Sensor>Accelerometer</Sensor>
+      <Sensor>Gyroscope</Sensor>
+      <Sensor>Proximity</Sensor>
+      <Sensor>Compass</Sensor>
+    </Sensors>
+  </Phone>
+</Phones>
